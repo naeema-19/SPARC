@@ -1,8 +1,4 @@
-/*=========================================================
-Author       : Bestwebcreator.
-Template Name: Cryptocash – ICO, Cryptocurrency Website & ICO Landing Page HTML + Dashboard Template
-Version      : 1.7
-==============================================================*/
+
 
 /*=============================================================
     CSS INDEX
@@ -1281,7 +1277,10 @@ header a:hover,
 	padding: 2px 0;
 }
 .logo_dark {
-	display:none;
+	display:;
+	
+	width: 8rem;
+	height: auto;
 }
 
 .v_blue .nav-fixed, 
@@ -2087,6 +2086,7 @@ header a:hover,
 *===================================*/
 .about_section {
 	padding: 100px 50px 100px 80px;
+
 }
 .about_shape::before {
 	background-color: #5957cd;
@@ -3792,6 +3792,13 @@ text-align: justify;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
+.team_img_B:hover {
+	border-radius: 10px;
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	box-shadow: 0 4px 8px 0 #0ff;
+}
 .team_img img,
 .team_image img {
 	border: 10px solid #ffffff;
@@ -3949,6 +3956,9 @@ text-align: justify;
 }
 .team_box_s3 {
     padding: 20px 20px;
+}
+.team_box_s3:hover {
+    box-shadow: 0 4px 8px 0 #0ff;
 }
 .team_social_s2 {
 	background-image: -webkit-linear-gradient(top, #ff67cb 0%,#ffcc67 99%);
@@ -5148,6 +5158,10 @@ text-align: justify;
 /*===================================*
 13. FOOTER SECTION
 *===================================*/
+#footer{
+	background:#0a0863;
+
+}
 .top_footer {
 	position:relative;
 }
